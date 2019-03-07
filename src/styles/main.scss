@@ -78,6 +78,11 @@ body {
 		letter-spacing: 0.7px;
 		margin-bottom: 30px;
 	}
+	&__name-top {
+		margin-top: 16px;
+		margin-left: 0;
+		margin-bottom: 19px;
+	}
 	&__title {
 		font-size: 48px;
 		font-weight: 700;
@@ -91,6 +96,7 @@ body {
 			letter-spacing: 0.9px;
 		}
 	}
+	
 	&__description {
 		font-family: 'Open Sans', serif;
 		font-size: 15px;
@@ -113,6 +119,9 @@ body {
 		padding: 14px 0;
 		letter-spacing: 0.7px;
 	}
+	&__btn-small {
+		max-width: 239px;
+	}
 }
 .block-book {
 	display: flex;
@@ -125,5 +134,24 @@ body {
 		background-repeat: no-repeat;
 		flex-basis: 446px;
 		margin-right: 56px;
+	}
+}
+.page {
+	padding-top: 161px;
+}
+.block-author {
+	display: flex;
+	justify-content: space-between;
+}
+.block-ava {
+	position: relative;
+	&__svg {
+		position: absolute;
+		z-index: -1;
+		right: 0;
+	}
+	&__img {
+		margin-top: 44px;
+		margin-right: 46px;
 	}
 }
